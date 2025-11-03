@@ -16,12 +16,12 @@ public class KubeJSArsNouveauPlugin implements dev.latvian.mods.kubejs.plugin.Ku
         registry.register(ArsComponents.SOUND);
     }
 
-    @Override
-    public void registerBindings(BindingRegistry registry) {
-        registry.add("CrushItem", ArsComponents.CrushItem.class);
-        registry.add("Color", ArsComponents.Color.class);
-        registry.add("Sound", ArsComponents.Sound.class);
-    }
+//    @Override
+//    public void registerBindings(BindingRegistry registry) {
+//        registry.add("CrushItem", ArsComponents.CrushItem.class);
+//        registry.add("Color", ArsComponents.Color.class);
+//        registry.add("Sound", ArsComponents.Sound.class);
+//    }
 
     @Override
     public void registerRecipeSchemas(RecipeSchemaRegistry registry) {
